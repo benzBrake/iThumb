@@ -11,8 +11,8 @@ Typecho文章缩略图(Post Thumbnail)插件
 前台通过自定义字段获取缩略图链接
 ```php
 <?php $this->thumb(); ?>
-缩略图获取顺序：设置的题图->文章图片->插件配置里的默认图片->随机图片
 ```
+缩略图获取顺序：设置的题图->文章图片->插件配置里的默认图片->随机图片
 ### Thanks
 [DT27](https://dt27.org/ "DT27")
 [TimThumb](https://www.binarymoon.co.uk/projects/timthumb/ "TimThumb")
