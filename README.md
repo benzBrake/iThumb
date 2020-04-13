@@ -21,8 +21,8 @@ Typecho文章缩略图(Post Thumbnail)插件
 >  [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/ "Mozilla Public License Version 2.0")
 
 ### Preview
-![](https://s1.ax1x.com/2020/04/12/GONy5T.gif)
+![ithumb-setThumb.gif](https://i.loli.net/2020/04/13/L1yx5CqVJnKfbMX.gif)
 
-![](https://s1.ax1x.com/2020/04/12/GONsaV.gif)
+![ithumb-deleteThumb.gif](https://i.loli.net/2020/04/13/CAXnOSqwz2lUuQB.gif)
 
-![](https://s1.ax1x.com/2020/04/12/GONrV0.gif)
+![ithumb-editpost.gif](https://i.loli.net/2020/04/13/dnwlSpuybAjWGB3.gif)
