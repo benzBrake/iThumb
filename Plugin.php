@@ -397,9 +397,9 @@ class iThumb_Plugin implements Typecho_Plugin_Interface
             if (isset($matches[1])) {
                 foreach ($matches[1] as $v) {
                     if (strpos($thumb, __TYPECHO_PLUGIN_DIR__ . "/TePass") !== false) {
-                        continue;
+                        $value['thumb'] = $v;
+                        break;
                     }
-                    $value['thumb'] = $v;
                 }
             }
         }
