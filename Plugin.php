@@ -396,7 +396,7 @@ class iThumb_Plugin implements Typecho_Plugin_Interface
             preg_match_all("/<[img|IMG].*?src=[\'|\"](.*?)[\'|\"].*?[\/]?>/", $archive->content, $matches);
             if (isset($matches[1])) {
                 foreach ($matches[1] as $v) {
-                    if (strpos($thumb, __TYPECHO_PLUGIN_DIR__ . "/TePass") !== false) {
+                    if (strpos($v, __TYPECHO_PLUGIN_DIR__ . "/TePass") !== false) {
                         $value['thumb'] = $v;
                         break;
                     }
