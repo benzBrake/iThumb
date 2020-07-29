@@ -156,7 +156,7 @@ class iThumb_Plugin implements Typecho_Plugin_Interface
         ?>
 <section class="typecho-post-option">
 	<label for="ithumb-url" class="typecho-label"><?php _e('题图');?></label>
-	<p><input id="ithumb-url" name="ithumb-url" type="text" value="<?php echo $thumb; ?>" class="hide w-100 text" /></p>
+	<p><input id="ithumb-url" name="ithumb-url" type="text" value="<?php echo $thumb; ?>" class="w-100 text" placeholder="<?php _e("手动粘贴图片链接或点击下方按钮选择图片"); ?>" /></p>
 	<div id="thumb-preview-area">
 		<?php if ($thumb !== ""): ?>
 		<div class="thumb-preview-area-header">
